@@ -1,4 +1,4 @@
-# 🐍 Beginner Python Projects
+# 🐍 Basic Python Projects
 
 Welcome to the **Basic Python Projects** repository! 🎉
 
