@@ -1,6 +1,6 @@
 # 🐍 Beginner Python Projects
 
-Welcome to the **Beginner Python Projects** repository! 🎉
+Welcome to the **Basic Python Projects** repository! 🎉
 
 This collection of projects is designed for those just starting out with Python programming. Each project provides a practical way to learn fundamental concepts, work with different libraries, and understand basic software architecture (like client-server models).
 
