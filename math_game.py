@@ -10,9 +10,12 @@ print ('''
 #######  ###  ##### #   #     ####  #   # ##### ##### 
 #  #  # #   #   #   #   #    #    # #   #   #      #
 #  #  # #####   #   #####    #   &# #   #   #     #
-#     # #   #   #   #   #     ####&  ###  #####  #####
-                                   & 
+#     # #   #   #   #   #     ####&  ###  #####  ##### 
+                                   &
+
+------------------------------By aluminium----------------------------------     
 ''')
+print("[GITHUB] https://github.com/aluminium65/")
 print (" \n \n Welcome to the Math Quiz!")
 print ("You will be asked 10 simple arithematic questions.")
 
