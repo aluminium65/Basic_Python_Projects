@@ -45,17 +45,3 @@ To run these projects, you'll need **Python 3.x** installed on your system.
     *(Note: The main file name may vary, usually it's `main.py` or the project name itself.)*
 
 ---
-
-## 🤝 Contributing
-
-This repository is primarily for learning, but feel free to fork it, improve the existing code, or add new beginner-friendly projects.
-
-1.  Fork the Project.
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the Branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
----
-
-Project Link: https://github.com/aluminium65/Basic_Python_Projects/
