@@ -65,8 +65,10 @@ button_open_parenth = tk.Button(root, text="(", command=lambda: add_to_calculati
 button_open_parenth.grid(row=5, column=1)
 button_close_parenth = tk.Button(root, text=")", command=lambda: add_to_calculation(")"), width=5, font=("Arial", 14))
 button_close_parenth.grid(row=5, column=3)
-button_equals = tk.Button(root, text="=", command=evaluate_calculation, width=13, font=("Arial", 14))
-button_equals.grid(row=6, column=3, columnspan=2)
+button_equals = tk.Button(root, text="=", command=evaluate_calculation, width=5, font=("Arial", 14))
+button_equals.grid(row=6, column=4)
+button_decimal = tk.Button(root, text=".", command=lambda: add_to_calculation("."), width=5, font=("Arial", 14))
+button_decimal.grid(row=6, column=3)
 button_clear = tk.Button(root, text="Clear", command=clear_field, width=13, font=("Arial", 14))
 button_clear.grid(row=6, column=1, columnspan=2)
 
