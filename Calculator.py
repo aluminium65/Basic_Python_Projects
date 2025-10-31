@@ -73,5 +73,18 @@ button_clear = tk.Button(root, text="Clear", command=clear_field, width=13, font
 button_clear.grid(row=6, column=1, columnspan=2)
 
 
-print("[GITHUB] https://github.com/aluminium65")
+print("""
+ @@@@@@  @@@@  @      @@@@@@ @    @ @      @@@@  @@@@@@@  @@@@@  @@@@
+@       @    @ @     @       @    @ @     @    @    @    @     @ @   @
+@       @@@@@@ @     @       @    @ @     @@@@@@    @    @     @ @@@@
+@       @    @ @     @       @    @ @     @    @    @    @     @ @  @
+ @@@@@@ @    @ @@@@@  @@@@@@  @@@@  @@@@@ @    @    @     @@@@@  @   @
+ 
+
+-------------------------By aluminium-----------------------------      
+
+""")
+
+
+print("\n[GITHUB] https://github.com/aluminium65")
 root.mainloop()
