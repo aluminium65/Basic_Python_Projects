@@ -42,9 +42,12 @@ def main():
 
 def handle_client(client_socket):
     with client_socket as sock:
-        request = sock.recv(1024)
-        print(f"[*] Recieved: {request.decode("utf-8")}")
-        sock.send(b"ACK") 
+        while sock:
+            sock.send(b" >> ")
+            request = sock.recv(1024)
+            if request:
+                message = request.decode("utf-8")
+                print(f"[*] Recieved: {message.replace("\n", "")}")
 
 
 if __name__== "__main__": 
