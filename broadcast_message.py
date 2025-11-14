@@ -33,7 +33,8 @@ def main():
 	global msg
 	print("\n[GITHUB] https://github.com/aluminium65")
 	print(f"[IP] {get_ip()}")
-	print(f"[NETWORK] {NETWORK}\n")
+	print(f"[NETWORK] {NETWORK}")
+	print(f"[PORT] {PORT}\n")
 
 	print("Enter the message to broadcast:")
 	msg = input("  >> ")
@@ -57,4 +58,8 @@ if __name__ == "__main__":
 
 
 		""")
-	main()
+	try:
+		main()
+	except KeyboardInterrupt:
+		print("\b\b[Exiting]")
+		exit()
